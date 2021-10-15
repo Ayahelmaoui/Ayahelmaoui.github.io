@@ -1,0 +1,71 @@
+body {
+
+    background-image: url(static/Images/2.png);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+  margin-left: 25%;
+  margin-right: 25%;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+p {
+    margin-top: 0px;
+    text-align: center;
+  }
+   
+  fieldset {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+   
+  legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+   
+  label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+  }
+   
+  em {
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(190, 22, 22);
+  }
+   
+  input:focus {
+    background: #eaeaea;
+  }
+   
+  input, textarea {
+    width: 249px;
+  }
+   
+  textarea {
+    height: 100px;
+  }
+   
+  select {
+    width: 254px;
+  }
+   
+  input[type=checkbox] {
+    width: 10px;
+  }
+   
+  input[type=submit] {
+    width: 150px;
+    padding: 10px;
+  }
