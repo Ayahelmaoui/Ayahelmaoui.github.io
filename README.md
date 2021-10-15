@@ -22,5 +22,5 @@ click on that button and play free games
 ## Contribution:
 want the games code ?
 check this github account for more 
-[Doha Helmaoui] [https://github.com/Doha-Helmaoui] and HAVE FUN :heart
+[Doha Helmaoui] [https://github.com/Doha-Helmaoui] and HAVE FUN :heart:
 
