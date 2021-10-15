@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Comic-con form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript">
+			function showMessage(){
+				alert("Thanks for participing.");
+			}
+		</script>
+    </head>
+
+    <body>
+        <br><br><br>
+<form action="#">
+    <br>
+    <h2>Comic-con participation form</h2>
+  <p><i>
+    Complete the form. Fields marked with </i><em>*</em> are <em>required</em></p>
+  <fieldset>
+    <legend>Contact</legend>
+      <label for="nom">Name <em>*</em></label>
+      <!--placeholder: indication grisée -->
+      
+      <!--required: il faut renseigner le champs sinon la validation est bloquée -->
+      <!--autofocus: le curseur est positionné dans cette case au chargement de la page-->
+      <input id="nom" placeholder="Odda Inuyaro" autofocus="" required=""><br>
+      <label for="telephone">Phone</label>
+      <!-- type="tel": bascule le clavier sur un smartphone-->
+      <!-- pattern: expression régulière à vérifier pour pouvoir valider -->
+      <input id="telephone" type="tel" placeholder="0xxxxxxxxx" pattern="0[0-9]{9}"><br>
+      <label for="email">Email <em>*</em></label>
+      <input id="email" type="email" placeholder="name@gmail.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@gmail.com"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Personal Informations </legend>
+      <label for="age">Age<em>*</em></label>
+      <!-- type="number": bascule le clavier sur un smartphone -->
+      <input id="age" type="number" placeholder="xx" pattern="[0-9]{2}" required=""><br>
+      <label for="sex">Sex</label>
+      <select id="sex">
+        <option value="W" name="sexe">Women</option>
+        <option value="M" name="sexe">Man</option>
+      </select><br>
+      <label for="comments">neet ?</label>
+      <textarea id="comments"></textarea>
+  </fieldset>
+ 
+  <fieldset>
+    <legend>Choose your favorite anime</legend>
+    <label for="One Piece"><input id="One Piece" type="checkbox" name="binet" value="One"> One Piece</label>
+    <label for="Naruto"><input id="Naruto" type="checkbox" name="binet" value="Naru"> Naruto</label>
+    <label for="Bungou Stray Dogs"><input id="Bungou Stray Dogs" type="checkbox" name="binet" value="Gods"> Bungou Stray Dogs</label>
+    <label for="The Seven Deadly Sins"><input id="The Seven Deadly Sins" type="checkbox" name="binet" value="seven"> The Seven Deadly Sins</label>
+    <label for="AOT"><input id="AOT" type="checkbox" name="binet" value="A"> AOT</label>
+    <label for="Demon Slayer"><input id="Demon Slayer" type="checkbox" name="binet" value="Demon Slayer"> Demon Slayer</label>
+    <label for="Food wars"><input id="Food wars" type="checkbox" name="binet" value="Food wars"> Food wars</label>
+    <label for="Haikyuu"><input id="Haikyuu" type="checkbox" name="binet" value="Haikyuu"> Haikyuu</label>
+    <label for="My Hero Academia"><input id="My Hero Academia" type="checkbox" name="binet" value="Hero"> My Hero Academia</label>
+    <label for="Bleach"><input id="Bleach" type="checkbox" name="binet" value="Bleach"> Bleach</label>
+    <label for="HxH"><input id="HxH" type="checkbox" name="binet" value="H"> HxH</label>
+    <label for="DB"><input id="DB" type="checkbox" name="binet" value="DB"> DB</label>
+    <label for="Made In Abyss"><input id="Made In Abyss" type="checkbox" name="binet" value="Made"> Made In Abyss</label>
+    <label for="SAO"><input id="SAO" type="checkbox" name="binet" value="SAO"> SAO</label>
+    <label for="Yakusoku No Neverland"><input id="Yakusoku No Neverland" type="checkbox" name="binet" value="Neverland"> Yakusoku No Neverland</label>
+    <label for="Mob Psycho 100"><input id="Mob Psycho 100" type="checkbox" name="binet" value="mob"> Mob Psycho 100</label>
+    <label for="Tokyo Ghoul"><input id="Tokyo Ghoul" type="checkbox" name="binet" value="Tokyo"> Tokyo Ghoul</label>
+    <label for="Fullmetal Alchemist"><input id="Fullmetal Alchemist" type="checkbox" name="binet" value="Full"> Fullmetal Alchemist</label>
+    <label for="Erased"><input id="Erased" type="checkbox" name="binet" value="Erased"> Erased</label>
+    <label for="Death Note"><input id="Death Note" type="checkbox" name="binet" value="Death"> Death Note</label>
+    <label for="other"><input id="other" type="checkbox" name="binet" value="other"> OTHER</label>
+  </fieldset>
+  <div class="button">
+    <p><input type="submit" value="Submit" onclick="showMessage()"/> </p>
+  </div>
+  <br>
+  <br>
+</form>
+<br>
+<br>
+<br>
+
+    </body>
+</html>
